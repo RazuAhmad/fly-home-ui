@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+.none {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -13,12 +21,8 @@
   flex: 0 0 auto;
 }
 
-.none {
-  display: none;
-}
-
-.block {
-  display: block;
+.inline-block {
+  display: inline-block;
 }
 
 .flex {
