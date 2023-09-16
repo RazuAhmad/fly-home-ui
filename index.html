@@ -43,190 +43,210 @@
 
     <!-- Hero section -->
     <section class="hero-section-area">
-      <div class="container">
-        <div class="row">
+      <div class="container h-100">
+        <div class="row h-100">
           <div class="col-md-12">
-            <div class="pr-3 hero-main-div">
-              <h1 class="hero-heading-text">
-                Welcome to SP Flyint! Get your trip in best deal.
-              </h1>
+            <div class="hero-section-container">
+              <div class="pr-3 hero-main-div">
+                <h1 class="hero-heading-text">
+                  Welcome to SP Flyint! Get your trip in best deal.
+                </h1>
 
-              <!-- Ticket searching area -->
-              <form class="ticket-searching-area">
-                <div class="trip-type flex f-gap-3 mb-3">
-                  <div id="oneWayTripArea">
-                    <input
-                      type="radio"
-                      id="oneWayTrip"
-                      name="trip-type"
-                      value="One way"
-                    />
-                    <label for="oneWayTrip">One way</label>
-                  </div>
-                  <div id="roundTripArea">
-                    <input
-                      type="radio"
-                      id="roundTrip"
-                      name="trip-type"
-                      value="Round trip"
-                    />
-                    <label for="roundTrip">Round trip</label>
-                  </div>
-                  <div>
-                    <input
-                      type="radio"
-                      id="Multi-City"
-                      name="trip-type"
-                      value="Multi-City"
-                    />
-                    <label for="Multi-City">Multi-City</label>
-                  </div>
-                </div>
-
-                <!-- One way trip -->
-                <div
-                  id="oneWayTripAreaForm"
-                  class="from-destination-date-area flex justify-between mb-3"
-                >
-                  <div class="from-place">
-                    <label for="from" class="block mb-1">From</label>
-                    <h3 class="mb-1">Dhaka</h3>
-                    <!-- <select name="from" id="" class="mb-1">
-                      <option value="dhaka">Dhaka</option>
-                      <option value="sylhet">Sylhet</option>
-                      <option value="rajshahi">Rajshahi</option>
-                    </select> -->
-                    <p>Hazrat Shahjalal Airport</p>
-                  </div>
-                  <div class="to-place">
-                    <label for="to" class="block mb-1">To</label>
-
-                    <!-- <select name="to" id="" class="mb-1">
-                      <option value="coxs bazar">Cox's Bazar</option>
-                      <option value="sylhet">Sylhet</option>
-                      <option value="rajshahi">Rajshahi</option>
-                    </select> -->
-                    <h3 class="mb-1">Cox's Bazar</h3>
-                    <p>Cox's Bazar Airport</p>
+                <!-- Ticket searching area -->
+                <form class="ticket-searching-area">
+                  <div class="trip-type flex f-gap-3 mb-3">
+                    <div id="oneWayTripArea">
+                      <input
+                        type="radio"
+                        id="oneWayTrip"
+                        name="trip-type"
+                        value="One way"
+                      />
+                      <label for="oneWayTrip">One way</label>
+                    </div>
+                    <div id="roundTripArea">
+                      <input
+                        type="radio"
+                        id="roundTrip"
+                        name="trip-type"
+                        value="Round trip"
+                      />
+                      <label for="roundTrip">Round trip</label>
+                    </div>
+                    <div>
+                      <input
+                        type="radio"
+                        id="Multi-City"
+                        name="trip-type"
+                        value="Multi-City"
+                      />
+                      <label for="Multi-City">Multi-City</label>
+                    </div>
                   </div>
 
-                  <div class="journey-date">
-                    <label
-                      for="date"
-                      class="flex item-center journey-date-label mb-1"
-                      >journey-date
-                      <img
-                        src="./images/arrow-down.svg"
-                        width="12"
-                        height="12"
-                        alt=""
-                    /></label>
+                  <!-- One way trip -->
+                  <div
+                    id="oneWayTripAreaForm"
+                    class="from-destination-date-area flex justify-between mb-3"
+                  >
+                    <div class="col-md-4">
+                      <div class="from-place">
+                        <label for="from" class="block mb-1">From</label>
+                        <h3 class="mb-1">Dhaka</h3>
+                        <!-- <select name="from" id="" class="mb-1">
+                        <option value="dhaka">Dhaka</option>
+                        <option value="sylhet">Sylhet</option>
+                        <option value="rajshahi">Rajshahi</option>
+                      </select> -->
+                        <p>Hazrat Shahjalal Airport</p>
+                      </div>
+                    </div>
 
-                    <!-- <input type="date" name="date" id="" class="mb-1" /> -->
-                    <h3>Mar, 12, 2023</h3>
-                    <p>Sunday</p>
+                    <div class="col-md-4">
+                      <div class="to-place">
+                        <label for="to" class="block mb-1">To</label>
+
+                        <!-- <select name="to" id="" class="mb-1">
+                        <option value="coxs bazar">Cox's Bazar</option>
+                        <option value="sylhet">Sylhet</option>
+                        <option value="rajshahi">Rajshahi</option>
+                      </select> -->
+                        <h3 class="mb-1">Cox's Bazar</h3>
+                        <p>Cox's Bazar Airport</p>
+                      </div>
+                    </div>
+
+                    <div class="col-md-2">
+                      <div class="journey-date">
+                        <label
+                          for="date"
+                          class="flex item-center journey-date-label mb-1"
+                          >journey-date
+                          <img
+                            src="./images/arrow-down.svg"
+                            width="12"
+                            height="12"
+                            alt=""
+                        /></label>
+
+                        <!-- <input type="date" name="date" id="" class="mb-1" /> -->
+                        <h3>Mar, 12, 2023</h3>
+                        <p>Sunday</p>
+                      </div>
+                    </div>
+                    <div class="col-md-2">
+                      <div class="passenger-class">
+                        <label
+                          for="date"
+                          class="flex item-center ticket-option-label mb-1"
+                          >Passengers & Class
+                          <img
+                            src="./images/arrow-down.svg"
+                            width="12"
+                            height="12"
+                            alt=""
+                        /></label>
+                        <h3 class="mb-1">4 Passengers</h3>
+                        <p>Business Class</p>
+                      </div>
+                    </div>
                   </div>
-                  <div class="passenger-class">
-                    <label
-                      for="date"
-                      class="flex item-center ticket-option-label mb-1"
-                      >Passengers & Class
-                      <img
-                        src="./images/arrow-down.svg"
-                        width="12"
-                        height="12"
-                        alt=""
-                    /></label>
-                    <h3 class="mb-1">4 Passengers</h3>
-                    <p>Business Class</p>
-                  </div>
-                </div>
 
-                <!-- Round trip -->
-
-                <div
-                  id="roundTripAreaForm"
-                  class="from-destination-date-area flex justify-between"
-                >
-                  <div class="from-place round-trip-from-place">
-                    <label for="from" class="block mb-1">From</label>
-                    <!-- <select name="from" id="" class="mb-1">
-                      <option value="dhaka">Dhaka</option>
-                      <option value="sylhet">Sylhet</option>
-                      <option value="rajshahi">Rajshahi</option>
-                    </select> -->
-                    <h3 class="mb-1">Dhaka</h3>
-                    <p>Hazrat Shahjalal Airport</p>
-                  </div>
-                  <div class="to-place round-trip-to-place">
-                    <label for="to" class="block mb-1">To</label>
-
-                    <!-- <select name="to" id="" class="mb-1">
-                      <option value="coxs bazar">Cox's Bazar</option>
-                      <option value="sylhet">Sylhet</option>
-                      <option value="rajshahi">Rajshahi</option>
-                    </select> -->
-                    <h3 class="mb-1">Cox's Bazar</h3>
-
-                    <p>Cox's Bazar Airport</p>
-                  </div>
+                  <!-- Round trip -->
 
                   <div
-                    class="journey-return-date flex justify-around item-center"
+                    id="roundTripAreaForm"
+                    class="from-destination-date-area flex justify-between"
                   >
-                    <div class="journey-go">
-                      <label
-                        for="date"
-                        class="flex item-center journey-date-label mb-1"
-                        >journey-date
-                        <img
-                          src="./images/arrow-down.svg"
-                          width="12"
-                          height="12"
-                          alt=""
-                      /></label>
-
-                      <h3>Mar, 12, 2023</h3>
-                      <p>Sunday</p>
+                    <div class="col-md-3">
+                      <div class="from-place round-trip-from-place">
+                        <label for="from" class="block mb-1">From</label>
+                        <!-- <select name="from" id="" class="mb-1">
+                      <option value="dhaka">Dhaka</option>
+                      <option value="sylhet">Sylhet</option>
+                      <option value="rajshahi">Rajshahi</option>
+                    </select> -->
+                        <h3 class="mb-1">Dhaka</h3>
+                        <p>Hazrat Shahjalal Airport</p>
+                      </div>
                     </div>
 
-                    <div class="return-date">
-                      <label
-                        for="date"
-                        class="flex item-center journey-date-label mb-1"
-                        >journey-date
-                        <img
-                          src="./images/arrow-down.svg"
-                          width="12"
-                          height="12"
-                          alt=""
-                      /></label>
+                    <div class="col-md-3">
+                      <div class="to-place round-trip-to-place">
+                        <label for="to" class="block mb-1">To</label>
 
-                      <h3>Mar, 12, 2023</h3>
-                      <p>Sunday</p>
+                        <!-- <select name="to" id="" class="mb-1">
+                      <option value="coxs bazar">Cox's Bazar</option>
+                      <option value="sylhet">Sylhet</option>
+                      <option value="rajshahi">Rajshahi</option>
+                    </select> -->
+                        <h3 class="mb-1">Cox's Bazar</h3>
+
+                        <p>Cox's Bazar Airport</p>
+                      </div>
+                    </div>
+
+                    <div class="col-md-4">
+                      <div
+                        class="journey-return-date flex justify-around item-center"
+                      >
+                        <div class="journey-go">
+                          <label
+                            for="date"
+                            class="flex item-center journey-date-label mb-1"
+                            >journey-date
+                            <img
+                              src="./images/arrow-down.svg"
+                              width="12"
+                              height="12"
+                              alt=""
+                          /></label>
+
+                          <h3>Mar, 12, 2023</h3>
+                          <p>Sunday</p>
+                        </div>
+
+                        <div class="return-date">
+                          <label
+                            for="date"
+                            class="flex item-center journey-date-label mb-1"
+                            >journey-date
+                            <img
+                              src="./images/arrow-down.svg"
+                              width="12"
+                              height="12"
+                              alt=""
+                          /></label>
+
+                          <h3>Mar, 12, 2023</h3>
+                          <p>Sunday</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-2">
+                      <div class="passenger-class">
+                        <label
+                          for="date"
+                          class="flex item-center ticket-option-label mb-1"
+                          >Passengers & Class
+                          <img
+                            src="./images/arrow-down.svg"
+                            width="12"
+                            height="12"
+                            alt=""
+                        /></label>
+                        <h2 class="number-of-passenger mb-1">4 Passengers</h2>
+                        <p>Business Class</p>
+                      </div>
                     </div>
                   </div>
 
-                  <div class="passenger-class">
-                    <label
-                      for="date"
-                      class="flex item-center ticket-option-label mb-1"
-                      >Passengers & Class
-                      <img
-                        src="./images/arrow-down.svg"
-                        width="12"
-                        height="12"
-                        alt=""
-                    /></label>
-                    <h2 class="number-of-passenger mb-1">4 Passengers</h2>
-                    <p>Business Class</p>
+                  <div class="flex justify-end mt-3">
+                    <button class="search-flight-btn">Search Flight</button>
                   </div>
-                </div>
-
-                <div class="flex justify-end mt-3">
-                  <button class="search-flight-btn">Search Flight</button>
-                </div>
-              </form>
+                </form>
+              </div>
             </div>
           </div>
         </div>

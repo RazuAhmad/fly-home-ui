@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .container {
   max-width: 1455px;
   margin: 0 auto;
@@ -40,11 +46,26 @@
   background-position: center center;
   background-size: cover;
   height: 100vh;
+  /* position: relative; */
+}
+
+.hero-section-container {
   position: relative;
+  height: 100%;
+}
+
+.hero-main-div {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  width: 100%;
+
+  transform: translate(-50%, -50%);
 }
 
 .hero-heading-text {
-  margin-top: 130px;
+  margin-bottom: 90px;
+
   font-size: 34px;
   color: #fff;
   font-family: Inter;
@@ -55,13 +76,11 @@
 }
 
 .ticket-searching-area {
-  background-color: white;
+  background: #fafbfb;
+
   padding: 32px 28px 40px 28px;
-  /* max-width: 1455px; */
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  /* width: 1455px; */
 }
 
 .trip-type {
@@ -75,7 +94,7 @@
 
 .from-destination-date-area {
   padding: 15px 36px 9px 35px;
-  border: 1px solid gray;
+  border: 1px solid #d2d8df;
 }
 
 .from-destination-date-area div:not(:last-child) {
@@ -101,7 +120,7 @@ input {
 
 .from-place {
   /* padding-right: 135px; */
-  width: 374px;
+  /* width: 374px; */
   /* border-right: 1px solid gray; */
   position: relative;
 }
@@ -111,7 +130,7 @@ input {
 }
 
 .round-trip-from-place {
-  width: 319px !important;
+  /* width: 319px !important; */
 }
 
 .round-trip-from-place select {
@@ -171,7 +190,7 @@ input {
 .to-place {
   /* padding-left: 104px;
   padding-right: 179px; */
-  width: 450px;
+  /* width: 450px; */
   padding-left: 45px;
   color: #676767;
   font-family: Inter;
@@ -186,19 +205,34 @@ input {
 }
 
 .round-trip-to-place {
-  width: 326px !important;
+  /* width: 326px !important; */
 }
 
 .journey-date {
   /* padding-right: 82px;
   padding-left: 35px; */
   /* border-right: 1px solid gray; */
-  width: 249px;
+  /* width: 249px; */
   padding-left: 45px;
 }
 
 .journey-return-date {
-  width: 428px;
+  /* width: 428px; */
+  color: #676767;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.journey-return-date h3 {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .journey-date input {
